@@ -33,8 +33,8 @@ if __name__ == "__main__":
                 args.username = "admin"
                 print("[-] Running with default username of admin...")
             if not args.password:
-                args.password = "deeboodah"
-                print("[-] Running with default password of deeboodah...")
+                args.password = "password"
+                print("[-] Running with default password of password...")
             print(f"Port: {args.port} Username: {args.username} Password: {args.password}")
             run_app(args.port, args.username, args.password)
         else:
